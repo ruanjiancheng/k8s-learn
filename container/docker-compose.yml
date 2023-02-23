@@ -1,0 +1,8 @@
+version: '3.9'
+
+services:
+  hellok8s:
+    image: augg1e/hellok8s:v1
+    container_name: hellok8s
+    ports:
+      - "3000:3000"
